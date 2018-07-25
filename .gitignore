@@ -1,0 +1,86 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+
+*.xlxs
+*.csv
+*.shp
+*.prj
+*.shx
+*.dbf
+
+
+
+####Filepaths to ignore
+Sandbar_Process/plotting_out/*.pdf
+Sandbar_Process/plotting_out/*.png
+Max_Min_Surface/output/*.tif
+Max_Min_Surface/output/*.xml
+Max_Min_Surface/output/*.csv
+Max_Min_Surface/input/*.tif
+Max_Min_Surface/input/*.xml
+Max_Min_Surface/input/*/*/*.tif
+Max_Min_Surface/input/*/*/*.xml
+*.py[cod]
+*$py.class
+.idea
+# C extensions
+*.so
+
+Sandbar_Process/plotting_our
+# Ignore any additional XML files
+XML/*
+
+# Distribution / packaging
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+
+# Sphinx documentation
+docs/_build/
+test/logs
+# PyBuilder
+target/
+
+# Visual Studio
+*.suo
+*.pyproj.user
